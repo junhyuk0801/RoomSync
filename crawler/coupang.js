@@ -18,19 +18,17 @@ function writeResort() {
         "https://with.coupang.com/accommodation/308545751/calendar/selected-update",
         {
             headers: {
-                accept: "application/json, text/javascript, */*; q=0.01",
+                "accept": "application/json, text/javascript, */*; q=0.01",
                 "accept-language": "ko,en-US;q=0.9,en;q=0.8,ko-KR;q=0.7",
                 "content-type": "application/json; charset=UTF-8",
-                "sec-ch-ua":
-                    "' Not;A Brand';v='99', 'Google Chrome';v='97', 'Chromium';v='97'",
+                "sec-ch-ua": "' Not;A Brand';v='99', 'Google Chrome';v='97', 'Chromium';v='97'",
                 "sec-ch-ua-mobile": "?0",
                 "sec-ch-ua-platform": "'Windows'",
                 "sec-fetch-dest": "empty",
                 "sec-fetch-mode": "cors",
                 "sec-fetch-site": "same-origin",
                 "x-requested-with": "XMLHttpRequest",
-                cookie: "pdt-boecn=W5VbjHT32Ec3aZvsCMmYB2cc2N6b7wQVcVPZ8a1sQ%2BPX1d6SlFGT5al1msIxxUwTcI4AIeyF3JTM71sVSmxI5ydzstnT15b4OtSndpiIimi1gz9eQ0%2F381IPdUKSyPZK;",
-                Referer: "",
+                "cookie": "pdt-boecn=W5VbjHT32Ec3aZvsCMmYB2cc2N6b7wQVcVPZ8a1sQ%2BPX1d6SlFGT5al1msIxxUwTcI4AIeyF3JTM71sVSmxI5ydzstnT15b4OtSndpiIimi1gz9eQ0%2F381IPdUKSyPZK;",
                 "Referrer-Policy": "strict-origin-when-cross-origin",
             },
             body:

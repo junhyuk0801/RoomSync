@@ -32,9 +32,7 @@ async function run(cname) {
     await saveData(data);
 
     var current = new Date(Date.now());
-    var lastCrawl = `${current.getFullYear()}/${
-        current.getMonth() + 1
-    }/${current.getDate()} ${current.getHours()}:${current.getMinutes()}`;
+    var lastCrawl = `${current.getFullYear()}/${current.getMonth() + 1}/${current.getDate()} ${current.getHours()}:${current.getMinutes()}`;
     config[cname].lastCrawl = lastCrawl;
     await saveJSON(config, "./jsons/config.json");
 }
