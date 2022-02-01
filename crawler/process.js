@@ -39,4 +39,5 @@ async function run(cname) {
 
 module.exports = {
     updateConfig,
+    firstRun
 };
