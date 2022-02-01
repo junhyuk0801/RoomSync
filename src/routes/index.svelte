@@ -21,7 +21,7 @@
     let cookie;
 
     let showCrawler = async function(crawler) {
-        let CrawlerInfo = await fetch("http://192.168.0.4:3001/requests/home")
+        let CrawlerInfo = await fetch("http://localhost:3001/requests/home")
         .then((res) => res.json());
         currentShow = crawler;
 
@@ -47,7 +47,7 @@
         else 
             data = {startDate, endDate, interval};
 
-        fetch("http://192.168.0.4:3001/requests/home/" + currentShow, {
+        fetch("http://localhost:3001/requests/home/" + currentShow, {
             headers: { 'Content-Type': 'application/json', },
             method: "POST",
             body: JSON.stringify(data)

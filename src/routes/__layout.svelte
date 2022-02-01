@@ -11,7 +11,7 @@
             margin: 0px;
         }
         
-        a:link { color: red; text-decoration: none;}
+        a:link { color: #666666; text-decoration: none;}
         a:visited { color: black; text-decoration: none;}
     </style>
 </svelte:head>

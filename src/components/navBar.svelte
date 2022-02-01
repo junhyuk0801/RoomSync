@@ -3,6 +3,7 @@
         {name: "홈", href: "/"},
         {name: "크롤러 설정", href: "/crawler-config"},
         {name: "쿠팡 설정", href: "/coupang-config"},
+        {name: "선취매 매물", href: "/prestocks"},
     ]
 </script>
 

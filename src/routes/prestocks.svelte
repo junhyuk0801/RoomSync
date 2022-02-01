@@ -8,7 +8,7 @@
     }
 </script>
 <script>
-    import {CRAWLERNAME} from "../stores/resortList"
+    import {CRAWLERNAME} from "../stores/resortList";
     export let data;
     let selectedResort = "all";
     let selectedItem = [];

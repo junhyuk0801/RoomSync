@@ -1,14 +1,11 @@
 <script>
     import Renamable from "../components/renamable.svelte"
+    import {CRAWLERNAME} from "../stores/resortList"
     export let item, f;
-
-    const CRAWLERNAME = {
-        "Daemyung" : "대명리조트",
-        "Hanhwa" : "한화리조트",
-    }
 
     let origin = item.name;
     let show = false;
+    let displayed = Object.keys(item.data);
 
     function resortNameChange(before, after) {
         let res = f.inspect(item.type, before, after);
@@ -26,6 +23,7 @@
                 }
 
             delete Object.assign(item.data, {[after]: item.data[before] })[before];
+            displayed = Object.keys(item.data);
         }
         return true;
     }
@@ -39,6 +37,7 @@
                 }
 
             delete Object.assign(item.data[resortname], {[after]: item.data[resortname][before] })[before];
+            displayed = Object.keys(item.data);
         }
         return true;
     }
@@ -46,10 +45,36 @@
     function roomDataChange(before, after, resortname, roomname, kind) {
         if (before !== after) {
             item.data[resortname][roomname][kind] = after;
-            console.log(item.data[resortname][roomname][kind]);
+            displayed = Object.keys(item.data);
         }
 
         return true;
+    }
+
+    function addResort() {
+        let randstr = Math.random().toString(36).substr(2,11);
+        item.data[randstr] = { temp : { resortType: "tmp", roomType: "tmp" } };
+        displayed = Object.keys(item.data);
+    }
+
+    function addRoom(resort) {
+        let randstr = Math.random().toString(36).substr(2,11);
+        item.data[resort][randstr] = { resortType: "tmp", roomType: "tmp" }
+        displayed = Object.keys(item.data);
+    }
+
+    function deleteResort(resort) {
+        if( confirm("진짜 지워요?") ) {
+            delete item.data[resort];
+            displayed = Object.keys(item.data);
+        }
+    }
+
+    function deleteRoom(resort, room) {
+        if( confirm("진짜 지워요?") ) {
+            delete item.data[resort][room];
+            displayed = Object.keys(item.data);
+        }
     }
 
     function submit() {
@@ -73,6 +98,7 @@
 
     .option {
         display: flex;
+        position: relative;
         flex-direction: column;
         align-items: center;
         background-color: #DDFFDD;
@@ -110,6 +136,13 @@
         padding-left: 4em;
         margin-left: 3em;
         width: 100%;
+    }
+
+    .resortTitle {
+        display: flex;
+        width: calc(100% - 20em);
+        justify-content: space-between;
+        margin-bottom: 0.2em;
     }
 
     .info hr {
@@ -173,33 +206,109 @@
         background-color: #eeffee;
     }
 
+    .removewhole {
+        position: absolute;
+        top: 1em;
+        right: 4em;
+        font-size: 1.1em;
+    }
+
+    .remove {
+        display: flex;
+        position: relative;
+        border: 1px solid black;
+        padding: 0.5em;
+        background-color: #FFBBBB;
+        border-radius: 1em;
+        box-shadow: 0.1em 0.1em 0.1em lightgray;
+        width: fit-content;
+    }
+
+    .remove:hover {
+        background-color: #FFDDDD;
+    }
+
+    .removecell {
+        width: fit-content;
+    }
+
+    .additem {
+        width: 100%;
+        border: 1px solid #99EEEE;
+        border-radius: 1em;
+        text-align: center;
+        background-color: #CCFFFF;
+    }
+
+    .additem:hover {
+        background-color: #DDFFFF;
+    }
+
+    .additem:active {
+        background-color: #FFFFFF;
+    }
+
+    .addresort {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        width: calc(100% - 30em);
+        height: 4em;
+        border: 1px solid #99EEEE;
+        border-radius: 1em;
+        background-color: #CCFFFF;
+    }
+
+    .addresort:hover {
+        background-color: #DDFFFF;
+    }
+
+    .addresort:active {
+        background-color: #FFFFFF;
+    }
+
 </style>
 
 {#if show}
 <div class="option">
+    <div class="removewhole">
+        <div class="remove" on:click={() => {f.remove(item.type, item.name)}}>삭제</div>
+    </div>
     <div class="info">
         <Renamable text={item.name} size="3em" onchange={resortNameChange}/>
         <hr>
-        {#each Object.keys(item.data) as opt}
-            <Renamable text={opt} size="1.8em" onchange={resortTypeChange}/>
+        {#each displayed as opt}
+            <div class="resortTitle">
+                <Renamable text={opt} size="1.8em" onchange={resortTypeChange}/>
+                <div class="remove" on:click={() => { deleteResort(opt); }}>삭제</div>
+            </div>
             <table>
                 <tr class="header">
                     <td>사이트 기준 객실명</td>
                     <td>변환후 리조트명</td>
                     <td>변환후 객실명</td>
+                    <td></td>
                 </tr>
                 {#each Object.keys(item.data[opt]) as rooms}
                     <tr>
                         <td><Renamable text={rooms} size="1.0em" onchange={(before, after) => roomTypeChange(before, after, opt)}/></td>
                         <td><Renamable text={item.data[opt][rooms].resortType} size="1.0em" onchange={(before, after) => roomDataChange(before, after, opt, rooms, "resortType")}/></td>
                         <td><Renamable text={item.data[opt][rooms].roomType} size="1.0em" onchange={(before, after) => roomDataChange(before, after, opt, rooms, "roomType")}/></td>
+                        <td class="removecell">
+                            <div class="remove" on:click={() => { deleteRoom(opt, rooms); }}>삭제</div>
+                        </td>
                     </tr>
                 {/each}
-                <tr><td colspan=3>+</td></tr>
+                <tr><td colspan=4>
+                    <div class="additem" on:click={() => addRoom(opt)}>+</div>
+                </td></tr>
             </table>
             <hr>
         {/each} 
     </div>
+    <div class="addresort" on:click={() => addResort()}>+</div>
+    <hr>
     <button class="submit" on:click={submit}>저장</button>
     <div class="close" on:click={() => { show = false; }}>
         ▲
@@ -208,7 +317,7 @@
 {:else}
 <div class="option_" on:click={() => { show = true; }}>
     <div class="title">
-        <div class="type">{CRAWLERNAME[item.type]}</div>
+        <div class="type">{$CRAWLERNAME[item.type]}</div>
         <div class="name">{item.name}</div>
     </div>
 </div>

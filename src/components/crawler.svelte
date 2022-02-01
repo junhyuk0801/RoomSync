@@ -1,10 +1,7 @@
 <script>
+    import { CRAWLERNAME } from "../stores/resortList";
     export let name, callback;
 
-    const CRAWLERNAME = {
-        "Daemyung" : "대명리조트",
-        "Hanhwa" : "한화리조트",
-    }
 </script>
 
 <style>
@@ -41,6 +38,6 @@
 </style>
 
 <div class="crawler" on:click={() => {callback(name)}}>
-    <div class="title">{CRAWLERNAME[name]}</div>
+    <div class="title">{$CRAWLERNAME[name]}</div>
     <div class="arrow-right"></div>
 </div>
