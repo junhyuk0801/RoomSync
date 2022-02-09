@@ -86,22 +86,22 @@
         },
         "경주 에톤": {
             "경주 에톤": {
-                "디럭스 베드": { "resortType" : "경주 한화리조트", "roomType" : "디럭스 베드"},
-                "디럭스 온돌": { "resortType" : "경주 한화리조트", "roomType" : "디럭스 온돌"},
-                "디럭스(호텔형)": { "resortType" : "경주 한화리조트", "roomType" : "디럭스(호텔형)"},
-                "디럭스(아이사랑)": { "resortType" : "경주 한화리조트", "roomType" : "디럭스(아이사랑)"}
+                "디럭스 베드": { "resortType" : "경주 한화리조트", "roomType" : "[에톤] 디럭스 베드"},
+                "디럭스 온돌": { "resortType" : "경주 한화리조트", "roomType" : "[에톤] 디럭스 온돌"},
+                "디럭스(호텔형)": { "resortType" : "경주 한화리조트", "roomType" : "[에톤] 디럭스(호텔형)"},
+                "디럭스(아이사랑)": { "resortType" : "경주 한화리조트", "roomType" : "[에톤] 디럭스(아이사랑)"}
             }
         },
         "경주 담톤": {
             "경주 담톤": {
-                "디럭스 베드": { "resortType" : "경주 한화리조트", "roomType" : "디럭스 베드"},
-                "디럭스 온돌": { "resortType" : "경주 한화리조트", "roomType" : "디럭스 온돌"},
-                "스위트": { "resortType" : "경주 한화리조트", "roomType" : "스위트"},
-                "스위트(뽀로로MAKE)": { "resortType" : "경주 한화리조트", "roomType" : "스위트(뽀로로MAKE)"},
-                "스위트(뽀로로READ)": { "resortType" : "경주 한화리조트", "roomType" : "스위트(뽀로로READ)"},
-                "스위트(뽀로로PEEKABOO)": { "resortType" : "경주 한화리조트", "roomType" : "스위트(뽀로로PEEKABOO)"},
-                "스위트(힐링룸)": { "resortType" : "경주 한화리조트", "roomType" : "스위트(힐링룸)"},
-                "로얄": { "resortType" : "경주 한화리조트", "roomType" : "로얄"}
+                "디럭스 베드": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 디럭스 베드"},
+                "디럭스 온돌": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 디럭스 온돌"},
+                "스위트": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 스위트"},
+                "스위트(뽀로로MAKE)": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 스위트(뽀로로MAKE)"},
+                "스위트(뽀로로READ)": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 스위트(뽀로로READ)"},
+                "스위트(뽀로로PEEKABOO)": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 스위트(뽀로로PEEKABOO)"},
+                "스위트(힐링룸)": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 스위트(힐링룸)"},
+                "로얄": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 로얄"}
             }
         },
         "제주": {

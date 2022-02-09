@@ -8,6 +8,7 @@ var cors = require("cors");
 var pagesRouter = require("./routes/pages");
 var homeRouter = require("./routes/home");
 var crawlerconfig = require("./routes/crawlerconfig");
+var coupangconfig = require("./routes/coupang");
 
 var app = express();
 
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/", pagesRouter);
 app.use("/requests/home", homeRouter);
 app.use("/requests/crawlerconfig", crawlerconfig);
+app.use("/requests/coupang", coupangconfig);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

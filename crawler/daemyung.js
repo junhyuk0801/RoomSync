@@ -19,8 +19,8 @@ function decideYear(dateBar, month, day) {
 
     if (d1Year == d2Year) return d1Year
 
-    d1 = Date(Number(d1.slice(0, 4)), d1.slice(5, 7), d1.slice(8, 10));
-    d2 = Date(Number(d2.slice(0, 4)), d2.slice(5, 7), d2.slice(8, 10));
+    d1 = Date(Number(d1.slice(0, 4)), Number(d1.slice(5, 7))-1, d1.slice(8, 10));
+    d2 = Date(Number(d2.slice(0, 4)), Number(d2.slice(5, 7))-1, d2.slice(8, 10));
     let oper = new Date(d1Year, month, day);
 
     if(d1 <= oper && oper <= d2)    return d1Year;
@@ -61,7 +61,7 @@ async function getSection(startdate, enddate, daysdiff, DATA) {
         days = days.map(v => {
             let dsa = $(v).text().trim();
             let [dmonth, dday] = [dsa.slice(0, 2), dsa.slice(3, 5)];
-            let dt = new Date(decideYear(dateBar, dmonth, dday), dmonth, dday);
+            let dt = new Date(decideYear(dateBar, dmonth, dday), Number(dmonth)-1, dday);
             return dt.to8String();
         });
 

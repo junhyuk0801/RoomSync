@@ -1,247 +1,436 @@
 {
-    "비발디파크": {
-        "소노벨 A": {
-            "스위트 취사객실": { "resortType": "소노벨 비발디파크", "roomType": "스위트 취사 체리(A)" },
-            "스위트 클린형": { "resortType": "소노벨 비발디파크", "roomType": "스위트 클린 체리(A)" }
+    "Hanhwa" : {   
+        "설악 쏘라노": {
+            "설악 쏘라노": {
+                "디럭스 베드": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]디럭스 베드"},
+                "디럭스 온돌": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]디럭스 온돌"},
+                "디럭스(호텔형)": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]디럭스(호텔형)"},
+                "디럭스(뽀로로MAKE)": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]디럭스(뽀로로MAKE)"},
+                "디럭스(뽀로로READ)": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]디럭스(뽀로로READ)"},
+                "디럭스(뽀로로DRAW)": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]디럭스(뽀로로DRAW)"},
+                "디럭스(뽀로로ROLE)": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]디럭스(뽀로로ROLE)"},
+                "디럭스 온돌(힐링룸)": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]디럭스 온돌(힐링룸)"},
+                "디럭스(호텔형_힐링룸)": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]디럭스(호텔형_힐링룸)"},
+                "디럭스(1룸_힐링룸)": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]디럭스(1룸_힐링룸)"},
+                "로얄": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]로얄"},
+                "로얄(힐링룸)": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]로얄(힐링룸)"},
+                "프리미어 스위트": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]프리미어 스위트"},
+                "프리미어 스위트(힐링룸)": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[쏘라노]프리미어 스위트(힐링룸)"}
+            }
         },
-        "소노벨 B·C": {
-            "패밀리 오크(취사)": { "resortType": "소노벨 비발디파크", "roomType": "패밀리 취사 오크(B)" },
-            "패밀리 오크(클린)": { "resortType": "소노벨 비발디파크", "roomType": "패밀리 클린 오크(B)" },
-            "패밀리 파인(온돌)": { "resortType": "소노벨 비발디파크", "roomType": "패밀리 취사 파인(B)" },
-            "스위트 오크(취사)": { "resortType": "소노벨 비발디파크", "roomType": "스위트 취사 오크(B)" },
-            "스위트 오크(클린)": { "resortType": "소노벨 비발디파크", "roomType": "스위트 클린 오크(B)" },
-            "스위트 멀티플랙스룸": { "resortType": "소노벨 비발디파크", "roomType": "스위트 멀티플랙스룸(B)" },
-            "스위트 파인(온돌)": { "resortType": "소노벨 비발디파크", "roomType": "스위트 취사 파인(B)" }
+        "설악 별관": {
+            "설악 별관": {
+                "디럭스": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[설악별관]디럭스"},
+                "로얄": { "resortType" : "설악 쏘라노 한화리조트", "roomType" : "[설악별관]로얄"}
+            }
         },
-        "소노벨 D": {
-            "패밀리": { "resortType": "소노벨 비발디파크", "roomType": "패밀리(취사)" },
-            "패밀리 PetRoom": { "resortType": "소노벨 비발디파크", "roomType": "패밀리 PetRoom" },
-            "스위트": { "resortType": "소노벨 비발디파크", "roomType": "스위트(취사)" },
-            "스위트 게이밍룸": { "resortType": "소노벨 비발디파크", "roomType": "스위트 게이밍룸" },
-            "스위트 홈바룸": { "resortType": "소노벨 비발디파크", "roomType": "스위트 홈바룸" },
-            "스위트 힐링키즈룸": { "resortType": "소노벨 비발디파크", "roomType": "스위트 힐링키즈룸" },
-            "스위트 PetRoom": { "resortType": "소노벨 비발디파크", "roomType": "스위트 PetRoom" }
+        "백암온천": {
+            "백암온천": {
+                "디럭스": { "resortType" : "백암온천 한화리조트", "roomType" : "디럭스"},
+                "디럭스 온돌": { "resortType" : "백암온천 한화리조트", "roomType" : "디럭스 온돌"},
+                "스위트": { "resortType" : "백암온천 한화리조트", "roomType" : "스위트"},
+                "로얄": { "resortType" : "백암온천 한화리조트", "roomType" :"로얄"}
+            }
         },
-        "소노문": {
-            "패밀리 슈페리어 킹 트윈 [더블+싱글]": { "resortType": "소노문 비발디파크", "roomType": "호텔 슈페리어" },
-            "패밀리 슈페리어 트윈 [싱글+싱글]": { "resortType": "소노문 비발디파크", "roomType": "패밀리 슈페리어 트윈 [싱글+싱글]" },
-            "패밀리 슈페리어 패밀리 트윈 [더블+더블]": { "resortType": "소노문 비발디파크", "roomType": "패밀리 슈페리어 패밀리 트윈 [더블+더블]" },
-            "패밀리 디럭스 킹 트윈 [더블+싱글]": { "resortType": "소노문 비발디파크", "roomType": "호텔 디럭스" },
-            "패밀리 디럭스VIEW 킹 트윈 [더블+싱글]": { "resortType": "소노문 비발디파크", "roomType": "호텔 디럭스 View" },
-            "패밀리 디럭스 VIEW 트윈 [싱글+싱글]": { "resortType": "소노문 비발디파크", "roomType": "패밀리 디럭스 VIEW 트윈 [싱글+싱글]" },
-            "패밀리 디럭스 VIEW 패밀리 트윈 [더블+더블]": { "resortType": "소노문 비발디파크", "roomType": "패밀리 디럭스 VIEW 패밀리 트윈 [더블+더블]" }
+        "용인베잔송": {
+            "용인베잔송": {
+                "디럭스 베드": { "resortType" : "용인베잔송 한화리조트", "roomType" : "디럭스 베드"},
+                "디럭스 온돌": { "resortType" : "용인베잔송 한화리조트", "roomType" : "디럭스 온돌"},
+                "로얄": { "resortType" : "용인베잔송 한화리조트", "roomType" : "로얄"},
+                "디럭스(뽀로로MAKE)": { "resortType" : "용인베잔송 한화리조트", "roomType" : "디럭스(뽀로로MAKE)"},
+                "디럭스(뽀로로READ)": { "resortType" : "용인베잔송 한화리조트", "roomType" : "디럭스(뽀로로READ)"},
+                "디럭스(뽀로로DRAW)": { "resortType" : "용인베잔송 한화리조트", "roomType" : "디럭스(뽀로로DRAW)"},
+                "디럭스(뽀로로ROLE)": { "resortType" : "용인베잔송 한화리조트", "roomType" : "디럭스(뽀로로ROLE)"}
+            }
+        },
+        "양평": {
+            "양평": {
+                "디럭스 베드": { "resortType" : "양평 한화리조트", "roomType" : "디럭스 베드"},
+                "디럭스 온돌": { "resortType" : "양평 한화리조트", "roomType" : "디럭스 온돌"},
+                "디럭스(펫동반)": { "resortType" : "양평 한화리조트", "roomType" : "디럭스(펫동반)"},
+                "로얄": { "resortType" : "양평 한화리조트", "roomType" : "로얄"}
+            }
+        },
+        "산정호수 안시": {
+            "산정호수 안시": {
+                "디럭스 베드": { "resortType" : "산정호수 안시 한화리조트", "roomType" : "디럭스 베드"},
+                "디럭스 온돌": { "resortType" : "산정호수 안시 한화리조트", "roomType" : "디럭스 온돌"},
+                "로얄": { "resortType" : "산정호수 안시 한화리조트", "roomType" : "로얄"}
+            }
+        },
+        "해운대": {
+            "해운대": {
+                "패밀리": { "resortType" : "해운대 한화리조트", "roomType" : "패밀리"},
+                "패밀리(호텔형)": { "resortType" : "해운대 한화리조트", "roomType" : "패밀리(호텔형)"},
+                "디럭스(오륙도뷰)": { "resortType" : "해운대 한화리조트", "roomType" : "디럭스(오륙도뷰)"},
+                "디럭스(오션뷰)": { "resortType" : "해운대 한화리조트", "roomType" : "디럭스(오션뷰)"},
+                "패밀리(미취사_키즈)": { "resortType" : "해운대 한화리조트", "roomType" : "패밀리(미취사_키즈)"},
+                "패밀리(미취사_룸씨어터)": { "resortType" : "해운대 한화리조트", "roomType" : "패밀리(미취사_룸씨어터)"},
+                "로얄(오션뷰)": { "resortType" : "해운대 한화리조트", "roomType" : "로얄(오션뷰)"},
+                "로얄 힐링룸": { "resortType" : "해운대 한화리조트", "roomType" : "로얄 힐링룸"}
+            }
+        },
+        "대천 파로스": {
+            "대천 파로스": {
+                "디럭스 베드": { "resortType" : "대천 파로스 한화리조트", "roomType" : "디럭스 베드"},
+                "디럭스 온돌": { "resortType" : "대천 파로스 한화리조트", "roomType" : "디럭스 온돌"},
+                "디럭스(오션뷰)": { "resortType" : "대천 파로스 한화리조트", "roomType" : "디럭스(오션뷰)"},
+                "스위트 베드": { "resortType" : "대천 파로스 한화리조트", "roomType" : "스위트 베드"},
+                "스위트 온돌": { "resortType" : "대천 파로스 한화리조트", "roomType" : "스위트 온돌"},
+                "스위트(오션뷰)": { "resortType" : "대천 파로스 한화리조트", "roomType" : "스위트(오션뷰)"},
+                "로얄(오션뷰)": { "resortType" : "대천 파로스 한화리조트", "roomType" : "로얄(오션뷰)"},
+                "디럭스(뽀로로MAKE)": { "resortType" : "대천 파로스 한화리조트", "roomType" : "디럭스(뽀로로MAKE)"},
+                "디럭스(뽀로로READ)": { "resortType" : "대천 파로스 한화리조트", "roomType" : "디럭스(뽀로로READ)"},
+                "디럭스(뽀로로PEEKABOO)": { "resortType" : "대천 파로스 한화리조트", "roomType" : "디럭스(뽀로로PEEKABOO)"}
+            }
+        },
+        "경주 에톤": {
+            "경주 에톤": {
+                "디럭스 베드": { "resortType" : "경주 한화리조트", "roomType" : "[에톤] 디럭스 베드"},
+                "디럭스 온돌": { "resortType" : "경주 한화리조트", "roomType" : "[에톤] 디럭스 온돌"},
+                "디럭스(호텔형)": { "resortType" : "경주 한화리조트", "roomType" : "[에톤] 디럭스(호텔형)"},
+                "디럭스(아이사랑)": { "resortType" : "경주 한화리조트", "roomType" : "[에톤] 디럭스(아이사랑)"}
+            }
+        },
+        "경주 담톤": {
+            "경주 담톤": {
+                "디럭스 베드": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 디럭스 베드"},
+                "디럭스 온돌": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 디럭스 온돌"},
+                "스위트": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 스위트"},
+                "스위트(뽀로로MAKE)": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 스위트(뽀로로MAKE)"},
+                "스위트(뽀로로READ)": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 스위트(뽀로로READ)"},
+                "스위트(뽀로로PEEKABOO)": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 스위트(뽀로로PEEKABOO)"},
+                "스위트(힐링룸)": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 스위트(힐링룸)"},
+                "로얄": { "resortType" : "경주 한화리조트", "roomType" : "[담톤] 로얄"}
+            }
+        },
+        "제주": {
+            "제주": {
+                "디럭스 베드": { "resortType" : "제주 한화리조트", "roomType" : "디럭스 베드"},
+                "디럭스 온돌": { "resortType" : "제주 한화리조트", "roomType" : "디럭스 온돌"},
+                "디럭스(1베드룸)": { "resortType" : "제주 한화리조트", "roomType" : "디럭스(1베드룸)"},
+                "디럭스(호텔형)": { "resortType" : "제주 한화리조트", "roomType" : "디럭스(호텔형)"},
+                "키즈룸(원베드룸)": { "resortType" : "제주 한화리조트", "roomType" : "키즈룸(원베드룸)"},
+                "스위트": { "resortType" : "제주 한화리조트", "roomType" : "스위트"}
+            }
+        },
+        "평창": {
+            "평창": {
+                "스위트 베드": { "resortType" : "평창 한화리조트", "roomType" : "스위트 베드"},
+                "스위트 온돌": { "resortType" : "평창 한화리조트", "roomType" : "스위트 온돌"},
+                "로얄": { "resortType" : "평창 한화리조트", "roomType" : "로얄"},
+                "로얄스위트": { "resortType" : "평창 한화리조트", "roomType" : "로얄스위트"},
+                "프레지덴셜스위트": { "resortType" : "평창 한화리조트", "roomType" : "프레지덴셜스위트"}
+            }
+        },
+        "골든베이": {
+            "골든베이": {
+                "로얄스위트(B)": { "resortType" : "골든베이", "roomType" : "로얄스위트(B)"}
+            }
+        },
+        "거제 벨버디어": {
+            "거제 벨버디어": {
+                "디럭스(오션뷰)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "디럭스(오션뷰)"},
+                "디럭스(오션뷰_뽀로로MAKE)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "디럭스(오션뷰_뽀로로MAKE)"},
+                "디럭스(오션뷰_뽀로로PEEKABOO)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "디럭스(오션뷰_뽀로로PEEKABOO)"},
+                "디럭스(오션뷰_뽀로로MOTIONPLAY)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "디럭스(오션뷰_뽀로로MOTIONPLAY)"},
+                "스위트(오션뷰)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "스위트(오션뷰)"},
+                "스위트(오션뷰_뽀로로MAKE)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "스위트(오션뷰_뽀로로MAKE)"},
+                "스위트(오션뷰_뽀로로PEEKABOO)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "스위트(오션뷰_뽀로로PEEKABOO)"},
+                "스위트(오션뷰_뽀로로MOTIONPLAY)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "스위트(오션뷰_뽀로로MOTIONPLAY)"},
+                "스위트(마운틴뷰)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "스위트(마운틴뷰)"},
+                "스위트(뽀로로MAKE)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "스위트(뽀로로MAKE)"},
+                "스위트(뽀로로PEEKABOO)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "스위트(뽀로로PEEKABOO)"},
+                "스위트(뽀로로MOTIONPLAY)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "스위트(뽀로로MOTIONPLAY)"},
+                "로얄(마운틴뷰)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "로얄(마운틴뷰)"},
+                "로얄(2룸_오션뷰)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "로얄(2룸_오션뷰)"},
+                "로얄(뽀로로MOTIONPLAY)": { "resortType" : "거제 벨버디어 한화리조트", "roomType" : "로얄(뽀로로MOTIONPLAY)"}
+            }
+        },
+        "여수 벨메르": {
+            "여수 벨메르": {
+                "스탠다드 트윈": { "resortType" : "여수 벨메르", "roomType" : "스탠다드 트윈"},
+                "스탠다드 트윈 오션뷰": { "resortType" : "여수 벨메르", "roomType" : "스탠다드 트윈 오션뷰"},
+                "스탠다드 쿼드": { "resortType" : "여수 벨메르", "roomType" : "스탠다드 쿼드"},
+                "주니어 스위트 트윈": { "resortType" : "여수 벨메르", "roomType" : "주니어 스위트 트윈"},
+                "주니어 스위트 오션뷰": { "resortType" : "여수 벨메르", "roomType" : "주니어 스위트 오션뷰"},
+                "주니어 스위트 패밀리 오션뷰": { "resortType" : "여수 벨메르", "roomType" : "주니어 스위트 패밀리 오션뷰"},
+                "슈페리어 스위트": { "resortType" : "여수 벨메르", "roomType" : "슈페리어 스위트"},
+                "슈페리어 스위트 오션뷰": { "resortType" : "여수 벨메르", "roomType" : "슈페리어 스위트 오션뷰"},
+                "디럭스 스위트": { "resortType" : "여수 벨메르", "roomType" : "디럭스 스위트"},
+                "테라스 스위트": { "resortType" : "여수 벨메르", "roomType" : "테라스 스위트"},
+                "로얄 테라스 스위트": { "resortType" : "여수 벨메르", "roomType" : "로얄 테라스 스위트"},
+                "프리미어 스위트": { "resortType" : "여수 벨메르", "roomType" : "프리미어 스위트"}
+            }
+        },
+        "더플라자 호텔": {
+            "더플라자 호텔": {
+                "디럭스킹": { "resortType" : "더플라자 호텔", "roomType" : "디럭스킹"},
+                "디럭스트윈": { "resortType" : "더플라자 호텔", "roomType" : "디럭스트윈"},
+                "디럭스패밀리": { "resortType" : "더플라자 호텔", "roomType" : "디럭스패밀리"},
+                "프리미어킹": { "resortType" : "더플라자 호텔", "roomType" : "프리미어킹"},
+                "프리미어트윈": { "resortType" : "더플라자 호텔", "roomType" : "프리미어트윈"},
+                "프라자스위트": { "resortType" : "더플라자 호텔", "roomType" : "프라자스위트"},
+                "프리미어패밀리": { "resortType" : "더플라자 호텔", "roomType" : "프리미어패밀리"}
+            }
+        },
+        "브리드호텔 양양": {
+            "브리드호텔 양양": {
+                "레이드백 Small _ 14평": { "resortType" : "브리드호텔 양양", "roomType" : "레이드백 Small _ 14평"},
+                "레이드백 Medium _21평": { "resortType" : "브리드호텔 양양", "roomType" : "레이드백 Medium _21평"},
+                "레이드백 Large _22평": { "resortType" : "브리드호텔 양양", "roomType" : "레이드백 Large _22평"},
+                "라이즈업 Small _ 14평": { "resortType" : "브리드호텔 양양", "roomType" : "라이즈업 Small _ 14평"},
+                "라이즈업 Medium _ 21평": { "resortType" : "브리드호텔 양양", "roomType" : "라이즈업 Medium _ 21평"},
+                "라이즈업 X Large _ 28평": { "resortType" : "브리드호텔 양양", "roomType" : "라이즈업 X Large _ 28평"},
+                "펜트하우스 행텐": { "resortType" : "브리드호텔 양양", "roomType" : "펜트하우스 행텐"}
+            }
         }
     },
-    "델피노": {
-        "소노문": {
-            "패밀리": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노문]패밀리 취사" },
-            "패밀리 테라스": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노문]패밀리 테라스" },
-            "패밀리 PetRoom(Friendly)": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "패밀리(PetFriendly)" },
-            "스위트": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노문]스위트 취사" },
-            "스위트 테라스": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노문]스위트 테라스" },
-            "스위트 PetRoom(Friendly)": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "스위트(PetFriendly)" }
+    "Daemyung" : {
+        "비발디파크": {
+            "소노벨 A": {
+                "스위트 취사객실": { "resortType": "소노벨 비발디파크", "roomType": "스위트 취사 체리(A)" },
+                "스위트 클린형": { "resortType": "소노벨 비발디파크", "roomType": "스위트 클린 체리(A)" }
+            },
+            "소노벨 B·C": {
+                "패밀리 오크(취사)": { "resortType": "소노벨 비발디파크", "roomType": "패밀리 취사 오크(B)" },
+                "패밀리 오크(클린)": { "resortType": "소노벨 비발디파크", "roomType": "패밀리 클린 오크(B)" },
+                "패밀리 파인(온돌)": { "resortType": "소노벨 비발디파크", "roomType": "패밀리 취사 파인(C)" },
+                "스위트 오크(취사)": { "resortType": "소노벨 비발디파크", "roomType": "스위트 취사 오크(B)" },
+                "스위트 오크(클린)": { "resortType": "소노벨 비발디파크", "roomType": "스위트 클린 오크(B)" },
+                "스위트 멀티플랙스룸": { "resortType": "소노벨 비발디파크", "roomType": "스위트 멀티플랙스룸(B)" },
+                "스위트 파인(온돌)": { "resortType": "소노벨 비발디파크", "roomType": "스위트 취사 파인(C)" }
+            },
+            "소노벨 D": {
+                "패밀리": { "resortType": "소노벨 비발디파크", "roomType": "패밀리 취사 메이플(D)" },
+                "패밀리 PetRoom": { "resortType": "소노펫 비발디파크", "roomType": "패밀리 Pet" },
+                "스위트": { "resortType": "소노벨 비발디파크", "roomType": "스위트 취사 메이플(D)" },
+                "스위트 게이밍룸": { "resortType": "소노벨 비발디파크", "roomType": "스위트 게이밍룸" },
+                "스위트 홈바룸": { "resortType": "소노벨 비발디파크", "roomType": "스위트 홈바룸" },
+                "스위트 힐링키즈룸": { "resortType": "소노벨 비발디파크", "roomType": "스위트 힐링키즈룸" },
+                "스위트 PetRoom": { "resortType": "소노펫 비발디파크", "roomType": "스위트 Pet" }
+            },
+            "소노문": {
+                "패밀리 슈페리어 킹 트윈 [더블+싱글]": { "resortType": "소노문 비발디파크", "roomType": "호텔 슈페리어" },
+                "패밀리 슈페리어 트윈 [싱글+싱글]": { "resortType": "소노문 비발디파크", "roomType": "패밀리 슈페리어 트윈 [싱글+싱글]" },
+                "패밀리 슈페리어 패밀리 트윈 [더블+더블]": { "resortType": "소노문 비발디파크", "roomType": "패밀리 슈페리어 패밀리 트윈 [더블+더블]" },
+                "패밀리 디럭스 킹 트윈 [더블+싱글]": { "resortType": "소노문 비발디파크", "roomType": "호텔 디럭스" },
+                "패밀리 디럭스VIEW 킹 트윈 [더블+싱글]": { "resortType": "소노문 비발디파크", "roomType": "호텔 디럭스 View" },
+                "패밀리 디럭스 VIEW 트윈 [싱글+싱글]": { "resortType": "소노문 비발디파크", "roomType": "패밀리 디럭스 VIEW 트윈 [싱글+싱글]" },
+                "패밀리 디럭스 VIEW 패밀리 트윈 [더블+더블]": { "resortType": "소노문 비발디파크", "roomType": "패밀리 디럭스 VIEW 패밀리 트윈 [더블+더블]" }
+            }
         },
-        "소노캄 A·B": {
-            "스위트 취사객실": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노캄] 스위트 취사" },
-            "스위트 클린형": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노캄] 스위트 클린" }
+        "델피노": {
+            "소노문": {
+                "패밀리": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노문]패밀리 취사" },
+                "패밀리 테라스": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노문]패밀리 테라스" },
+                "패밀리 PetRoom(Friendly)": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "패밀리(PetFriendly)" },
+                "스위트": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노문]스위트 취사" },
+                "스위트 테라스": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노문]스위트 테라스" },
+                "스위트 PetRoom(Friendly)": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "스위트(PetFriendly)" }
+            },
+            "소노캄 A·B": {
+                "스위트 취사객실": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노캄] 스위트 취사" },
+                "스위트 클린형": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노캄] 스위트 클린" }
+            },
+            "소노캄 C": {
+                "패밀리": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노캄] 호텔 패밀리" }
+            }
         },
-        "소노캄 C": {
-            "패밀리": { "resortType": "델피노(소노문/소노캄/소노펠리체)", "roomType": "[소노캄] 호텔 패밀리" }
-        }
-    },
-    "쏠비치 양양": {
-        "리조트": {
-            "패밀리": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "패밀리(취사)" },
-            "스위트 취사객실": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "스위트(취사)" },
-            "스위트 클린형": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "패밀리(클린)" },
-            "스위트 PetRoom(Friendly)": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "스위트(PetFriendly)" }
+        "쏠비치 양양": {
+            "리조트": {
+                "패밀리": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "패밀리(취사)" },
+                "스위트 취사객실": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "스위트(취사)" },
+                "스위트 클린형": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "스위트(클린)" },
+                "스위트 PetRoom(Friendly)": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "스위트(PetFriendly)" }
+            },
+            "호텔": {
+                "패밀리 슈페리어 산": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "[호텔] 슈페리어 산전망(침대)" },
+                "패밀리 슈페리어 바다": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "[호텔] 슈페리어 바다전망" },
+                "패밀리 슈페리어 온돌 산": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "[호텔] 슈페리어 산전망(온돌)" },
+                "스위트 디럭스": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "[호텔] 디럭스 스위트" },
+                "스위트 이그제큐티브스위트 양실 바다": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "[호텔] 이그제큐티브 바다전망" },
+                "스위트 이그제큐티브스위트 양실 산": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "[호텔] 이그제큐티브 산전망" }
+            }
         },
-        "호텔": {
-            "패밀리 슈페리어 산": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "[호텔] 슈페리어 산전망(침대)" },
-            "패밀리 슈페리어 바다": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "[호텔] 슈페리어 바다전망" },
-            "패밀리 슈페리어 온돌 산": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "[호텔] 슈페리어 산전망(온돌)" },
-            "스위트 디럭스": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "[호텔] 디럭스 스위트" },
-            "스위트 이그제큐티브스위트 양실 바다": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "[호텔] 이그제큐티브 바다전망" },
-            "스위트 이그제큐티브스위트 양실 산": { "resortType": "쏠비치 양양 / 양양쏠비치호텔앤리조트", "roomType": "[호텔] 이그제큐티브 산전망" }
-        }
-    },
-    "쏠비치 삼척": {
-        "리조트": {
-            "패밀리 취사객실": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 패밀리 취사" },
-            "패밀리 클린형": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 패밀리 클린" },
-            "패밀리 PetRoom(Friendly)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "패밀리(PetFriendly)" },
-            "스위트 취사객실": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 스위트 취사" },
-            "스위트 테라스(취사)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 스위트 취사(테라스)" },
-            "스위트 파노라마(취사)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 스위트 취사(파노라마)" },
-            "스위트 클린형": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 스위트 클린" },
-            "스위트 파노라마(클린)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 스위트 클린(파노라마)" },
-            "스위트 PetRoom(Friendly)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "스위트(PetFriendly)" }
+        "쏠비치 삼척": {
+            "리조트": {
+                "패밀리 취사객실": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 패밀리 취사" },
+                "패밀리 클린형": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 패밀리 클린" },
+                "패밀리 PetRoom(Friendly)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "패밀리(PetFriendly)" },
+                "스위트 취사객실": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 스위트 취사" },
+                "스위트 테라스(취사)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 스위트 취사(테라스)" },
+                "스위트 파노라마(취사)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 스위트 취사(파노라마)" },
+                "스위트 클린형": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 스위트 클린" },
+                "스위트 파노라마(클린)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[리조트] 스위트 클린(파노라마)" },
+                "스위트 PetRoom(Friendly)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "스위트(PetFriendly)" }
+            },
+            "호텔": {
+                "패밀리 슈페리어 더블": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[호텔] 슈페리어 더블 바다전망" },
+                "패밀리 테라스(슈페리얼 더블)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "패밀리 테라스(슈페리얼 더블)" },
+                "패밀리 슈페리어 트윈": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[호텔] 슈페리어 트윈 바다전망" },
+                "패밀리 테라스(슈페리얼 트윈)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "패밀리 테라스(슈페리얼 트윈)" },
+                "패밀리 테라스(슈페리얼 가든)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "패밀리 테라스(슈페리얼 가든)" },
+                "패밀리 슈페리어 산토리니": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "패밀리 슈페리어 산토리니" },
+                "패밀리 테라스(슈페리얼 산토리니)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "패밀리 테라스(슈페리얼 산토리니)" },
+                "스위트 오션(더블)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[호텔] 스위트 오션 바다전망" },
+                "스위트 오션(트윈)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "스위트 오션(트윈)" },
+                "스위트 스위트 산토리니": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "스위트 스위트 산토리니" }
+            }
         },
-        "호텔": {
-            "패밀리 슈페리어 더블": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[호텔] 슈페리어 더블 바다전망" },
-            "패밀리 테라스(슈페리얼 더블)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "" },
-            "패밀리 슈페리어 트윈": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "[호텔] 슈페리어 트윈 바다전망" },
-            "패밀리 테라스(슈페리얼 트윈)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "" },
-            "패밀리 테라스(슈페리얼 가든)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "" },
-            "패밀리 슈페리어 산토리니": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "" },
-            "패밀리 테라스(슈페리얼 산토리니)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "" },
-            "스위트 오션(더블)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "" },
-            "스위트 오션(트윈)": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "" },
-            "스위트 스위트 산토리니": { "resortType": "쏠비치 삼척 / 삼척쏠비치호텔앤리조트", "roomType": "" }
-        }
-    },
-    "쏠비치 진도": {
-        "리조트": {
-            "패밀리 취사객실": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "" },
-            "패밀리 클린형": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "" },
-            "패밀리 PetRoom(Friendly)": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "" },
-            "스위트 취사객실": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "" },
-            "스위트 클린형": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "" },
-            "스위트 PetRoom(Friendly)": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "" }
+        "쏠비치 진도": {
+            "리조트": {
+                "패밀리 취사객실": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "[리조트] 패밀리 취사" },
+                "패밀리 클린형": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "[리조트] 패밀리 클린" },
+                "패밀리 PetRoom(Friendly)": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "패밀리(PetFriendly)" },
+                "스위트 취사객실": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "[리조트] 스위트 취사" },
+                "스위트 클린형": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "[리조트] 스위트 클린" },
+                "스위트 PetRoom(Friendly)": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "스위트(PetFriendly)" }
+            },
+            "호텔": {
+                "패밀리 스탠다드 트윈": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "[호텔] 스탠다드 바다전망" }
+            }
         },
-        "호텔": {
-            "패밀리 스탠다드 트윈": { "resortType": "쏠비치 진도 / 진도쏠비치호텔앤리조트", "roomType": "[호텔] 스탠다드 바다전망" }
-        }
-    },
-    "소노캄 고양": {
         "소노캄 고양": {
-            "패밀리 슈페리어 더블": { "resortType": "", "roomType": "" },
-            "패밀리 웨스트 슈페리어 더블": { "resortType": "", "roomType": "" },
-            "패밀리 슈페리어 트윈": { "resortType": "", "roomType": "" },
-            "패밀리 웨스트 슈페리어 트윈": { "resortType": "", "roomType": "" },
-            "패밀리 디럭스 트윈": { "resortType": "", "roomType": "" },
-            "패밀리 PetRoom": { "resortType": "", "roomType": "" },
-            "패밀리 패밀리 트윈": { "resortType": "", "roomType": "" },
-            "스위트 쥬니어 스위트": { "resortType": "", "roomType": "" },
-            "스위트 파밀리에 스위트": { "resortType": "", "roomType": "" },
-            "스위트 이그제큐티브 스위트 더블": { "resortType": "", "roomType": "" },
-            "스위트 이그제큐티브 스위트 트윈": { "resortType": "", "roomType": "" },
-            "스위트 PetRoom": { "resortType": "", "roomType": "" }
-        }
-    },
-    "소노캄 여수": {
+            "소노캄 고양": {
+                "패밀리 슈페리어 더블": { "resortType": "소노캄 고양", "roomType": "슈페리어 더블" },
+                "패밀리 웨스트 슈페리어 더블": { "resortType": "소노캄 고양", "roomType": "웨스트 슈페리어 더블" },
+                "패밀리 슈페리어 트윈": { "resortType": "소노캄 고양", "roomType": "슈페리어 트윈" },
+                "패밀리 웨스트 슈페리어 트윈": { "resortType": "소노캄 고양", "roomType": "웨스트 슈페리어 트윈" },
+                "패밀리 디럭스 트윈": { "resortType": "소노캄 고양", "roomType": "디럭스 트윈" },
+                "패밀리 PetRoom": { "resortType": "소노캄 고양", "roomType": "펫 패밀리" },
+                "패밀리 패밀리 트윈": { "resortType": "소노캄 고양", "roomType": "패밀리 트윈" },
+                "스위트 쥬니어 스위트": { "resortType": "소노캄 고양", "roomType": "쥬니어 스위트" },
+                "스위트 파밀리에 스위트": { "resortType": "소노캄 고양", "roomType": "파밀리에 스위트" },
+                "스위트 이그제큐티브 스위트 더블": { "resortType": "소노캄 고양", "roomType": "이그제큐티브 스위트 더블" },
+                "스위트 이그제큐티브 스위트 트윈": { "resortType": "소노캄 고양", "roomType": "이그제큐티브 스위트 트윈" },
+                "스위트 PetRoom": { "resortType": "소노캄 고양", "roomType": "스위트 PetRoom" }
+            }
+        },
         "소노캄 여수": {
-            "패밀리 슈페리어 킹": { "resortType": "", "roomType": "" },
-            "패밀리 슈페리어 트윈": { "resortType": "", "roomType": "" },
-            "패밀리 디럭스 트윈": { "resortType": "", "roomType": "" },
-            "패밀리 이그제큐티브 스페인": { "resortType": "", "roomType": "" },
-            "패밀리 이그제큐티브 아랍": { "resortType": "", "roomType": "" },
-            "패밀리 테마 한실": { "resortType": "", "roomType": "" },
-            "패밀리 테마 타다미": { "resortType": "", "roomType": "" },
-            "패밀리 이그제큐티브 디럭스": { "resortType": "", "roomType": "" },
-            "스위트 타워 스위트": { "resortType": "", "roomType": "" },
-            "스위트 PetRoom(Friendly)": { "resortType": "", "roomType": "" },
-            "스위트 파밀리에 스위트": { "resortType": "", "roomType": "" }
-        }
-    },
-    "소노캄 거제": {
+            "소노캄 여수": {
+                "패밀리 슈페리어 킹": { "resortType": "소노캄 여수", "roomType": "슈페리어 킹" },
+                "패밀리 슈페리어 트윈": { "resortType": "소노캄 여수", "roomType": "슈페리어 트윈" },
+                "패밀리 디럭스 트윈": { "resortType": "소노캄 여수", "roomType": "디럭스 트윈" },
+                "스위트 타워 스위트": { "resortType": "소노캄 여수", "roomType": "타워 스위트" },
+                "패밀리 테마 한실": { "resortType": "소노캄 여수", "roomType": "테마 한실" },
+                "패밀리 테마 타다미": { "resortType": "소노캄 여수", "roomType": "테마 타다미" },
+                "패밀리 이그제큐티브 스페인": { "resortType": "소노캄 여수", "roomType": "이그제큐티브 스페인" },
+                "패밀리 이그제큐티브 아랍": { "resortType": "소노캄 여수", "roomType": "이그제큐티브 아랍" },
+                "패밀리 이그제큐티브 디럭스": { "resortType": "소노캄 여수", "roomType": "이그제큐티브 디럭스" },
+                "스위트 PetRoom(Friendly)": { "resortType": "소노캄 여수", "roomType": "스위트(PetFriendly)" },
+                "스위트 파밀리에 스위트": { "resortType": "소노캄 여수", "roomType": "파밀리에 스위트" }
+            }
+        },
         "소노캄 거제": {
-            "패밀리 취사객실": { "resortType": "", "roomType": "" },
-            "패밀리 클린형": { "resortType": "", "roomType": "" },
-            "패밀리 PetRoom(Friendly)": { "resortType": "", "roomType": "" },
-            "스위트 Vista": { "resortType": "", "roomType": "" },
-            "스위트 취사객실": { "resortType": "", "roomType": "" },
-            "스위트 클린형": { "resortType": "", "roomType": "" },
-            "스위트 테마형": { "resortType": "", "roomType": "" },
-            "스위트 PetRoom(Friendly)": { "resortType": "", "roomType": "" }
-        }
-    },
-    "소노캄 제주": {
+            "소노캄 거제": {
+                "패밀리 취사객실": { "resortType": "소노캄 거제", "roomType": "패밀리 취사" },
+                "패밀리 클린형": { "resortType": "소노캄 거제", "roomType": "패밀리 클린" },
+                "패밀리 PetRoom(Friendly)": { "resortType": "소노캄 거제", "roomType": "패밀리(PetFriendly)" },
+                "스위트 취사객실": { "resortType": "소노캄 거제", "roomType": "스위트 취사" },
+                "스위트 클린형": { "resortType": "소노캄 거제", "roomType": "스위트 클린" },
+                "스위트 테마형": { "resortType": "소노캄 거제", "roomType": "스위트 테마" },
+                "스위트 PetRoom(Friendly)": { "resortType": "소노캄 거제", "roomType": "스위트(PetFriendly)" },
+                "스위트 Vista": { "resortType": "소노캄 거제", "roomType": "VISTA 스위트 취사" }
+            }
+        },
         "소노캄 제주": {
-            "패밀리 취사객실": { "resortType": "", "roomType": "" },
-            "패밀리 클린형": { "resortType": "", "roomType": "" },
-            "패밀리 PetRoom(Friendly)": { "resortType": "", "roomType": "" },
-            "스위트 디럭스(취사)": { "resortType": "", "roomType": "" },
-            "스위트 디럭스(클린)": { "resortType": "", "roomType": "" },
-            "스위트 럭셔리(취사)": { "resortType": "", "roomType": "" },
-            "스위트 럭셔리(클린)": { "resortType": "", "roomType": "" },
-            "스위트 그랜드(취사)": { "resortType": "", "roomType": "" },
-            "스위트 PetRoom(Friendly)": { "resortType": "", "roomType": "" }
-        }
-    },
-    "소노벨 천안": {
-        "EAST동": {
-            "패밀리 취사객실": { "resortType": "", "roomType": "" },
-            "패밀리 클린형": { "resortType": "", "roomType": "" },
-            "스위트 취사객실": { "resortType": "", "roomType": "" },
-            "스위트 클린형": { "resortType": "", "roomType": "" },
-            "스위트 PetRoom(Friendly)": { "resortType": "", "roomType": "" }
+            "소노캄 제주": {
+                "패밀리 취사객실": { "resortType": "소노캄 제주", "roomType": "패밀리 취사" },
+                "패밀리 클린형": { "resortType": "소노캄 제주", "roomType": "패밀리 클린" },
+                "패밀리 PetRoom(Friendly)": { "resortType": "소노캄 제주", "roomType": "패밀리(PetFriendly)" },
+                "스위트 디럭스(취사)": { "resortType": "소노캄 제주", "roomType": "스위트 디럭스 취사" },
+                "스위트 디럭스(클린)": { "resortType": "소노캄 제주", "roomType": "스위트 디럭스 클린" },
+                "스위트 럭셔리(취사)": { "resortType": "소노캄 제주", "roomType": "스위트 럭셔리 취사" },
+                "스위트 럭셔리(클린)": { "resortType": "소노캄 제주", "roomType": "스위트 럭셔리 클린" },
+                "스위트 그랜드(취사)": { "resortType": "소노캄 제주", "roomType": "스위트 그랜드 취사" },
+                "스위트 PetRoom(Friendly)": { "resortType": "소노캄 제주", "roomType": "스위트(PetFriendly)" }
+            }
         },
-        "WEST동": {
-            "스위트 스위트(A)": { "resortType": "", "roomType": "" },
-            "스위트 A(테마)": { "resortType": "", "roomType": "" },
-            "스위트 스위트(B)": { "resortType": "", "roomType": "" },
-            "스위트 B(테마)": { "resortType": "", "roomType": "" }
-        }
-    },
-    "소노벨 청송": {
+        "소노벨 천안": {
+            "EAST동": {
+                "패밀리 취사객실": { "resortType": "소노벨 천안", "roomType": "[EAST동] 패밀리 취사객실" },
+                "패밀리 클린형": { "resortType": "소노벨 천안", "roomType": "[EAST동] 패밀리 클린형" },
+                "스위트 취사객실": { "resortType": "소노벨 천안", "roomType": "[EAST동] 스위트 취사객실" },
+                "스위트 클린형": { "resortType": "소노벨 천안", "roomType": "[EAST동] 스위트 클린형" },
+                "스위트 PetRoom(Friendly)": { "resortType": "소노벨 천안", "roomType": "[EAST동] 스위트(PetFriendly)" }
+            },
+            "WEST동": {
+                "스위트 스위트(A)": { "resortType": "소노벨 천안", "roomType": "[WEST동] 스위트(A)" },
+                "스위트 A(테마)": { "resortType": "소노벨 천안", "roomType": "A(테마)" },
+                "스위트 스위트(B)": { "resortType": "소노벨 천안", "roomType": "[WEST동] 스위트(B)" },
+                "스위트 B(테마)": { "resortType": "소노벨 천안", "roomType": "B(테마)" }
+            }
+        },
         "소노벨 청송": {
-            "패밀리 취사객실": { "resortType": "", "roomType": "" },
-            "패밀리 클린형": { "resortType": "", "roomType": "" },
-            "패밀리 PetRoom(Friendly)": { "resortType": "", "roomType": "" },
-            "스위트 취사객실": { "resortType": "", "roomType": "" },
-            "스위트 클린형": { "resortType": "", "roomType": "" },
-            "스위트 스위트 플러스(취사)": { "resortType": "", "roomType": "" },
-            "스위트 PetRoom(Friendly)": { "resortType": "", "roomType": "" }
-        }
-    },
-    "소노벨 경주": {
-        "소노벨 경주": {
-            "패밀리 취사객실": { "resortType": "", "roomType": "" },
-            "패밀리 PetRoom(Friendly)": { "resortType": "", "roomType": "" },
-            "패밀리 클린형(호수)": { "resortType": "", "roomType": "" },
-            "패밀리 클린형(산)": { "resortType": "", "roomType": "" },
-            "스위트 취사객실": { "resortType": "", "roomType": "" },
-            "스위트 PetRoom(Friendly)": { "resortType": "", "roomType": "" },
-            "스위트 클린형(호수)": { "resortType": "", "roomType": "" },
-            "스위트 클린형(산)": { "resortType": "", "roomType": "" }
-        }
-    },
-    "소노벨 변산": {
-        "리조트": {
-            "패밀리": { "resortType": "", "roomType": "" },
-            "패밀리 클린형": { "resortType": "", "roomType": "" },
-            "스위트": { "resortType": "", "roomType": "" },
-            "스위트 클린형": { "resortType": "", "roomType": "" },
-            "패밀리 PetRoom(Friendly)": { "resortType": "", "roomType": "" },
-            "스위트 PetRoom(Friendly)": { "resortType": "", "roomType": "" }
+            "소노벨 청송": {
+                "패밀리 취사객실": { "resortType": "소노벨 청송", "roomType": "패밀리 취사" },
+                "패밀리 클린형": { "resortType": "소노벨 청송", "roomType": "패밀리 클린" },
+                "패밀리 PetRoom(Friendly)": { "resortType": "소노벨 청송", "roomType": "패밀리(PetFriendly)" },
+                "스위트 취사객실": { "resortType": "소노벨 청송", "roomType": "스위트 취사" },
+                "스위트 클린형": { "resortType": "소노벨 청송", "roomType": "스위트 클린" },
+                "스위트 스위트 플러스(취사)": { "resortType": "소노벨 청송", "roomType": "스위트 플러스" },
+                "스위트 PetRoom(Friendly)": { "resortType": "소노벨 청송", "roomType": "스위트(PetFriendly)" }
+            }
         },
-        "호텔": {
-            "패밀리 패밀리 바다": { "resortType": "", "roomType": "" },
-            "패밀리 패밀리 산": { "resortType": "", "roomType": "" },
-            "스위트 스위트 바다": { "resortType": "", "roomType": "" },
-            "스위트 스위트 산": { "resortType": "", "roomType": "" }
-        }
-    },
-    "소노벨 제주": {
+        "소노벨 경주": {
+            "소노벨 경주": {
+                "패밀리 취사객실": { "resortType": "소노벨 경주", "roomType": "패밀리 취사" },
+                "패밀리 PetRoom(Friendly)": { "resortType": "소노벨 경주", "roomType": "패밀리(PetFriendly)" },
+                "패밀리 클린형(호수)": { "resortType": "소노벨 경주", "roomType": "패밀리 클린/호수" },
+                "패밀리 클린형(산)": { "resortType": "소노벨 경주", "roomType": "패밀리 클린/산" },
+                "스위트 취사객실": { "resortType": "소노벨 경주", "roomType": "스위트 취사" },
+                "스위트 PetRoom(Friendly)": { "resortType": "소노벨 경주", "roomType": "스위트(PetFriendly)" },
+                "스위트 클린형(호수)": { "resortType": "소노벨 경주", "roomType": "스위트 클린/호수" },
+                "스위트 클린형(산)": { "resortType": "소노벨 경주", "roomType": "스위트 클린/산" }
+            }
+        },
+        "소노벨 변산": {
+            "리조트": {
+                "패밀리": { "resortType": "소노벨 변산", "roomType": "[리조트] 패밀리 취사" },
+                "패밀리 클린형": { "resortType": "소노벨 변산", "roomType": "[리조트] 패밀리 클린" },
+                "패밀리 PetRoom(Friendly)": { "resortType": "소노벨 변산", "roomType": "[리조트] 패밀리(PetFriendly)" },
+                "스위트": { "resortType": "소노벨 변산", "roomType": "[리조트] 스위트 취사" },
+                "스위트 클린형": { "resortType": "소노벨 변산", "roomType": "[리조트] 스위트 클린" },
+                "스위트 PetRoom(Friendly)": { "resortType": "소노벨 변산", "roomType": "[리조트] 스위트(PetFriendly)" }
+            },
+            "호텔": {
+                "패밀리 패밀리 바다": { "resortType": "소노벨 변산", "roomType": "[호텔] 패밀리 바다" },
+                "패밀리 패밀리 산": { "resortType": "소노벨 변산", "roomType": "[호텔] 패밀리 산" },
+                "스위트 스위트 바다": { "resortType": "소노벨 변산", "roomType": "[호텔] 스위트 바다" },
+                "스위트 스위트 산": { "resortType": "소노벨 변산", "roomType": "[호텔] 스위트 산" }
+            }
+        },
         "소노벨 제주": {
-            "패밀리 취사객실": { "resortType": "", "roomType": "" },
-            "패밀리 클린형": { "resortType": "", "roomType": "" },
-            "스위트 취사객실": { "resortType": "", "roomType": "" },
-            "스위트 클린형": { "resortType": "", "roomType": "" },
-            "스위트 PetRoom(Friendly)": { "resortType": "", "roomType": "" }
-        }
-    },
-    "소노문 단양": {
+            "소노벨 제주": {
+                "패밀리 취사객실": { "resortType": "소노벨 제주", "roomType": "패밀리 취사" },
+                "패밀리 클린형": { "resortType": "소노벨 제주", "roomType": "패밀리 클린" },
+                "스위트 취사객실": { "resortType": "소노벨 제주", "roomType": "스위트 취사" },
+                "스위트 클린형": { "resortType": "소노벨 제주", "roomType": "스위트 클린" },
+                "스위트 PetRoom(Friendly)": { "resortType": "소노벨 제주", "roomType": "스위트(PetFriendly)" }
+            }
+        },
         "소노문 단양": {
-            "패밀리 취사객실": { "resortType": "", "roomType": "" },
-            "패밀리 클린형(침대)": { "resortType": "", "roomType": "" },
-            "스위트 취사객실": { "resortType": "", "roomType": "" },
-            "스위트 PetRoom(Friendly)": { "resortType": "", "roomType": "" },
-            "스위트 클린형(침대)": { "resortType": "", "roomType": "" },
-            "스위트 게임룸": { "resortType": "", "roomType": "" },
-            "스위트 스위트 플러스": { "resortType": "", "roomType": "" },
-            "스위트 스위트 플러스(클린)": { "resortType": "", "roomType": "" }
-        }
-    },
-    "소노휴 양평": {
+            "소노문 단양": {
+                "패밀리 취사객실": { "resortType": "소노문 단양", "roomType": "패밀리 취사" },
+                "패밀리 클린형(침대)": { "resortType": "소노문 단양", "roomType": "패밀리 클린" },
+                "스위트 취사객실": { "resortType": "소노문 단양", "roomType": "스위트 취사" },
+                "스위트 클린형(침대)": { "resortType": "소노문 단양", "roomType": "스위트 클린" },
+                "스위트 PetRoom(Friendly)": { "resortType": "소노문 단양", "roomType": "스위트(PetFriendly)" },
+                "스위트 게임룸": { "resortType": "소노문 단양", "roomType": "스위트 게임룸" },
+                "스위트 스위트 플러스": { "resortType": "소노문 단양", "roomType": "스위트 플러스" },
+                "스위트 스위트 플러스(클린)": { "resortType": "소노문 단양", "roomType": "스위트 플러스 클린" }
+            }
+        },
         "소노휴 양평": {
-            "패밀리 취사객실": { "resortType": "", "roomType": "" },
-            "패밀리 PetRoom(Friendly)": { "resortType": "", "roomType": "" },
-            "패밀리 클린형": { "resortType": "", "roomType": "" },
-            "스위트 취사객실": { "resortType": "", "roomType": "" },
-            "스위트 PetRoom(Friendly)": { "resortType": "", "roomType": "" },
-            "스위트 클린형": { "resortType": "", "roomType": "" }
+            "소노휴 양평": {
+                "패밀리 취사객실": { "resortType": "소노휴 양평", "roomType": "패밀리 취사" },
+                "패밀리 클린형": { "resortType": "소노휴 양평", "roomType": "패밀리 클린" },
+                "패밀리 PetRoom(Friendly)": { "resortType": "소노휴 양평", "roomType": "패밀리(PetFriendly)" },
+                "스위트 취사객실": { "resortType": "소노휴 양평", "roomType": "스위트 취사객" },
+                "스위트 클린형": { "resortType": "소노휴 양평", "roomType": "스위트 클린" },
+                "스위트 PetRoom(Friendly)": { "resortType": "소노휴 양평", "roomType": "스위트(PetFriendly)" }
+            }
         }
-    }
+    }    
 }

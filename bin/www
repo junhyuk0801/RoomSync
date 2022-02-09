@@ -7,7 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('roomsync:server');
 var http = require('http');
-var run = require('../crawler/process').firstRun
+var run = require('../crawler/process').execute
 
 /**
  * Get port from environment and store in Express.
@@ -21,7 +21,7 @@ app.set('port', port);
  */
 
 var server = http.createServer(app);
-// run();
+run();
 
 /**
  * Listen on provided port, on all network interfaces.

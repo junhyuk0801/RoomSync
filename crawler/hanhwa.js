@@ -22,20 +22,13 @@ async function getLoc(loc, brch, startdate, enddate, DATA) {
             "Referrer-Policy": "strict-origin-when-cross-origin",
         },
         body:
-            'ds={"ds_search":[{' +
-            '"CORP_CD":"1000","BRCH_CD":"' +
-            brch +
-            '","LOC_CD":"' +
-            loc +
-            '",' +
+            'ds={"ds_search":[{' + '"CORP_CD":"1000","BRCH_CD":"' + brch +
+            '","LOC_CD":"' + loc + '",' +
             '"CUST_NO":"0001659555","MEMB_DIV_CD":"02","MEMB_MAST_NO":"",' +
             '"CONT_NO":"20000040","MEMB_NO":"","CUST_IDNT_NO":"",' +
             '"RSRV_LOC_CD":"","WAIT_RSRV_YN":"N","WAIT_RSRV_NO":"",' +
-            '"OB_YN":"N","STRT_DATE":"' +
-            startdate +
-            '","END_DATE":"' +
-            enddate +
-            '",' +
+            '"OB_YN":"N","STRT_DATE":"' + startdate +
+            '","END_DATE":"' + enddate + '",' +
             '"RSRV_CLDR_CL_CD":"03","RSRV_RCEPT_DIV_CD":"2","RSRV_ROOM_CNT":"1","CORP_CUST_YN":"N"}],' +
             '"serviceInfo":{"INTF_ID":"TFO00HBSREMPRR0113","RECV_SVC_CD":"HBSREMPRR0113"}}',
         method: "POST",
