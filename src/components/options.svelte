@@ -80,7 +80,6 @@
     function submit() {
         f.submit(item.type, origin, item.name, item.data);
     }
-
 </script>
 <style>
     .option_ {
@@ -273,7 +272,7 @@
 {#if show}
 <div class="option">
     <div class="removewhole">
-        <div class="remove" on:click={() => {f.remove(item.type, item.name)}}>삭제</div>
+        <div class="remove" on:click={() => { show = false; f.remove(item.type, item.name); }}>삭제</div>
     </div>
     <div class="info">
         <Renamable text={item.name} size="3em" onchange={resortNameChange}/>
@@ -315,7 +314,7 @@
     </div>
 </div>
 {:else}
-<div class="option_" on:click={() => { show = true; }}>
+<div class="option_" on:click={() => { show = true; displayed = Object.keys(item.data); }}>
     <div class="title">
         <div class="type">{$CRAWLERNAME[item.type]}</div>
         <div class="name">{item.name}</div>

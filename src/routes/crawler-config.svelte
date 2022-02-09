@@ -8,8 +8,7 @@
 <script>
     import Option from "../components/options.svelte";
     import Modal from "../components/modal.svelte"
-    import {CRAWLERNAME} from "../stores/resortList"
-import { add_styles } from "svelte/internal";
+    import { CRAWLERNAME } from "../stores/resortList"
         
     export let data;
     let resortList = Object.keys(data);
@@ -55,13 +54,14 @@ import { add_styles } from "svelte/internal";
         data[addingItem][randstr] = {
             temp: { temp: { resortType: "tmp", roomType: "tmp" } }
         };
-        select(selectedResort); search(searchedTerm);
-
+        
         fetch("http://localhost:3001/requests/crawlerconfig/", {
             headers: { 'Content-Type': 'application/json', },
             method: "POST",
             body: JSON.stringify(data)
         });
+
+        select(selectedResort); search(searchedTerm);
     }
     
     $: { select(selectedResort); search(searchedTerm); }
@@ -94,8 +94,8 @@ import { add_styles } from "svelte/internal";
 
     f.remove = function(type, resortName) {
         if(confirm("진짜 지워요?")) {
-            delete data[type][resortName];`
-            `
+            delete data[type][resortName];
+            
             fetch("http://localhost:3001/requests/crawlerconfig/", {
                 headers: { 'Content-Type': 'application/json', },
                 method: "POST",
@@ -141,6 +141,7 @@ import { add_styles } from "svelte/internal";
         overflow-y: scroll;
         overflow-x: hidden;
         border: 2px solid darkgray;
+        resize: vertical;
     }
 
     .addnew {
